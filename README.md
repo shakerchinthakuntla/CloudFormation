@@ -1,10 +1,15 @@
 # CloudFormation
+----------------
 01-StackConcept:
+----------------
 	Pre-requisties->
 		default VPC,
 		Keypar,
 		AMI Id
+
+------------------------------
 02-Resource: Key components of stack 
+-------------------------------
 	intrinsic Function !Ref
 	Example :
 	-------------
@@ -39,4 +44,4 @@
 			Type: AWS::EC2::EIP
 			Properties:
 				InstanceId: !Ref DevEC2Instance        # Assocation of Elsatic IP od EC2 instance   
-	
+03:
